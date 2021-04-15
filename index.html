@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- NOTE: CSS Files -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!-- NOTE: Favicon -->
+    <link rel="icon" href="favicon/favicon.ico">
+    <title>Jaydev Vadachhak</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- Creating Menu Tabs & Logo at Top Using HTML -->
+    <nav>
+        <a href="#home" class="logo">Jaydev</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#skills" onclick="toggleMenu();">Skills</a></li>
+            <li><a href="#internships" onclick="toggleMenu();">Internships</a></li>
+            <li><a href="#projects" onclick="toggleMenu();">Projects</a></li>
+            <li><a href="#certifications" onclick="toggleMenu();">Certifications</a></li>
+            <li><a href="#blogs" onclick="toggleMenu();">Blogs</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Creating Banner Layout in HTML -->
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello, I'm<br> <span>Jaydev Vadachhak</span></h2>
+            <h3>ICT Student| Developer | Writer | Investor</h3>
+            <!-- <h3>I'm Developer | Writer | Analyst</h3> -->
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+
+    <!-- Creating About Me Layout in HTML -->
+    <section class="about" id="about">
+        <div class="heading">
+            <p>Explore My Profile</p>
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <!-- <div class="w50">
+                <img src="images/myPic.png" alt="Jaydev Vadachhak" class="proPic">
+            </div> -->
+            <div class="contentBx w50">
+                <!-- <h3>Who am i?</h3> -->
+                <h2>I'm <b>Jaydev Vadachhak</b>, an ICT Student at PDPU</h2>
+                <p>I Enjoy taking Classes so i can relate more of my students & help them in Web Design & Developers.  Was Active Developer & Support for Live Hosting , SSL and also worked as developer/API integration using paypal / payUmoney / ccAvenue / 2checkout integration.</p><br>
+                <p>I am a freelancer from INDIA and i have been building noteworthy UX/UI designs and websites for years, which comply with the latest design trends. I help convert a vision and an idea into meaningful and useful products. Having a sharp eye for product evolution helps me prioritize tasks, iterate fast and deliver faster.</p>
+                <div class="heading bottom">
+                    <a href="src/JaydevVadachhak.pdf" class="btn round">Download CV</a>
+                    <div class="bt">
+                        <b>Name:</b> Jaydev Vadachhak<br>
+                        <b>Age:</b> 21
+                    </div>
+                    <div class="bt">
+                        <b>Email:</b> Jaydevvadachhak@gmail.com<br>
+                        <b>Location:</b> INDIA
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Skills Layout in HTML -->
+    <section class="skills" id="skills">
+        <div class="heading white">
+            <h2>My Skills</h2>
+            <p>Technologies I work on</p>
+        </div>
+        <div class="content">
+            <div class="skillsBx">
+                <img alt="Java" src="https://img.icons8.com/color/96/000000/java-coffee-cup-logo.png" width="60" height="60"/>
+                <h3>Java</h3> 
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="skillsBx">
+                <img alt="python" src="https://img.icons8.com/color/96/000000/python.png" width="60" height="60"/>
+                <h3>Python</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="skillsBx">
+                <img alt="Kotlin" width="60" height="60" src="https://img.icons8.com/color/96/000000/kotlin.png"/>
+                <h3>Kotlin</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="skillsBx">
+                <img alt="git" src="https://img.icons8.com/color/96/000000/git.png" width="60" height="60"/>
+                <h3>Git</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="skillsBx">
+                <img alt="javascript" src="https://img.icons8.com/color/96/000000/javascript.png" width="60" height="60"/>
+                <h3>JavaScript</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="skillsBx">
+                <img alt="mysql" src="https://img.icons8.com/fluent/96/000000/mysql-logo.png" width="60" height="60"/>
+                <h3>MySQL</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating skills Layout in HTML -->
+    <section class="skills" id="skills">
+        <div class="heading white">
+            <h2>My ToolBox</h2>
+            <p>Tools I work on</p>
+        </div>
+        <div class="content">
+            <div class="skillsBx">
+                <img alt="vscode" src="https://img.icons8.com/fluent/96/000000/visual-studio-code-2019.png" width="60" height="60"/>
+                <h3>VS Code</h3> 
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="skillsBx">
+                <img alt="googleanalytics" src="https://img.icons8.com/color/96/000000/google-analytics.png" width="60" height="60"/>
+                <h3>Google Analytics</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="skillsBx">
+                <img alt="Tableau" width="60px" height="60" src="https://img.icons8.com/color/96/4a90e2/tableau-software.png"/>
+                <h3>Tableau</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="skillsBx">
+                <img alt="wordpress" src="https://img.icons8.com/color/96/000000/wordpress.png" width="60" height="60"/>
+                <h3>Wordpress</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="skillsBx">
+                <img alt="androidstudio" src="https://img.icons8.com/fluent/96/000000/android-os.png" width="60" height="60"/>
+                <h3>Android Studio</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="skillsBx">
+                <img alt="photoshop" src="https://img.icons8.com/color/96/000000/adobe-photoshop.png" width="60" height="60"/>
+                <h3>Adobe Photoshop</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating blogs Layout in HTML -->
+    <section class="blogs" id="blogs">
+        <div class="heading">
+            <h2>Latest Blogs</h2>
+            <p>Showcasing some of my <b>Write-Ups</b></p>
+        </div>
+        <div class="content">
+            <div class="blogsBx">
+                <a href="https://medium.com/@jaydevvadachhak/corona-digital-virus-3e34e1dfb6b8" target="_blank">
+                    <img src="images/Blog-1.jpg" alt="">
+                    <p>Corona Digital Virus</p>
+                </a>
+            </div>
+            <div class="blogsBx">
+                <a href="https://medium.com/@jaydevvadachhak/7-cs-of-communication-4c0da7edd482" target="_blank">
+                    <img src="images/Blog-2.jpg" alt="">
+                    <p>7 C's of Communication</p>
+                </a>
+            </div>
+            <div class="blogsBx">
+                <a href="https://medium.com/@jaydevvadachhak/working-in-startup-vs-working-in-service-companies-6d4e37f8e75" target="_blank">
+                    <img src="images/Blog-3.jpg" alt="">
+                    <p>Working in Startup vs Working in Service Companies</p>
+                </a>
+            </div>
+            <div class="blogsBx">
+                <a href="https://medium.com/@jaydevvadachhak/corona-affected-u-s-to-new-u-s-8159d5908b" target="_blank">
+                    <img src="images/Blog-4.jpg" alt="">
+                    <p>Corona affected US to New Us</p>
+                </a>
+            </div>
+            <div class="blogsBx">
+                <a href="https://medium.com/@jaydevvadachhak/tangible-behaviour-588730689713" target="_blank">
+                    <img src="images/Blog-5.jpg" alt="">
+                    <p>Tangible Behaviour</p>
+                </a>
+            </div>
+            <div class="blogsBx">
+                <a href="https://cryptocurrency15.blogspot.com/" target="_blank">
+                    <img src="images/Blog-7.jpg" alt="">
+                    <p>CryptoCurrency & Blockchain</p>
+                </a>
+            </div>
+            <div class="heading">
+                <a href="https://medium.com/@jaydevvadachhak" target="_blank" class="btn" style="color:#111;">View All My Write-Ups</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating internships Layout in HTML -->
+    <section class="internships" id="internships">
+        <div class="heading white">
+            <h2>Internships</h2>
+            <p>Here I give an edge on skills</p>
+        </div>
+        <div class="content">
+            <div class="internshipsBx">
+                <p>I did an excellent creative job, addressing our request quickly, and also providing his own graphic insight, being open to feedback and changes or edits when they arose. He worked with us the entire way. Highly recommended.</p>
+                <h3>Spark Foundations (TSF)<br>Data Analyst</h3>
+            </div>
+            <div class="internshipsBx">
+                <p>I did an excellent creative job, addressing our request quickly, and also providing his own graphic insight, being open to feedback and changes or edits when they arose. He worked with us the entire way. Highly recommended.</p>
+                <h3>Science & Technical Committee<br>Graphic Designer</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating projects Layout in HTML -->
+    <section class="projects" id="projects">
+        <div class="heading white">
+            <h2>Projects</h2>
+            <p>Here On What I've Practiced</p>
+        </div>
+        <div class="content">
+            <div class="projectsBx">
+                <p>Praveen did an excellent creative job, addressing our request quickly, and also providing his own graphic insight, being open to feedback and changes or edits when they arose. He worked with us the entire way. Highly recommended.</p>
+                <h3>Java GUI Software<br>Java Developer</h3>
+            </div>
+            <div class="projectsBx">
+                <p>Praveen did an excellent creative job, addressing our request quickly, and also providing his own graphic insight, being open to feedback and changes or edits when they arose. He worked with us the entire way. Highly recommended.</p>
+                <h3>Food App & Book App<br>Android Developer</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating certifications Layout in HTML -->
+    <section class="certifications" id="certifications">
+        <div class="heading">
+            <h2>My Certifications</h2>
+            <p>Showcasing some of my <b>Certifications</b></p>
+        </div>
+        <div class="content">
+            <div class="certificationsBx">
+                <a href="https://medium.com/@jaydevvadachhak/corona-digital-virus-3e34e1dfb6b8" target="_blank">
+                    <img src="images/certi-1.jpg" alt="">
+                    <p>Python Programming</p>
+                </a>
+            </div>
+            <div class="certificationsBx">
+                <a href="https://medium.com/@jaydevvadachhak/7-cs-of-communication-4c0da7edd482" target="_blank">
+                    <img src="images/certi-2.jpg" alt="">
+                    <p>Android App Development</p>
+                </a>
+            </div>
+            <div class="certificationsBx">
+                <a href="https://medium.com/@jaydevvadachhak/working-in-startup-vs-working-in-service-companies-6d4e37f8e75" target="_blank">
+                    <img src="images/certi-3.jpg" alt="">
+                    <p>Digital Marketing</p>
+                </a>
+            </div>
+            <div class="certificationsBx">
+                <a href="https://medium.com/@jaydevvadachhak/corona-affected-u-s-to-new-u-s-8159d5908b" target="_blank">
+                    <img src="images/certi-5.jpg" alt="">
+                    <p>Git & Github</p>
+                </a>
+            </div>
+            <div class="certificationsBx">
+                <a href="https://medium.com/@jaydevvadachhak/tangible-behaviour-588730689713" target="_blank">
+                    <img src="images/certi-6.jpg" alt="">
+                    <p>National Creativity Aptitude Test</p>
+                </a>
+            </div>
+            <div class="certificationsBx">
+                <a href="https://cryptocurrency15.certificationspot.com/" target="_blank">
+                    <img src="images/certi-8.jpg" alt="">
+                    <p>Java Programming</p>
+                </a>
+            </div>
+            <div class="heading">
+                <a href="https://sites.google.com/view/jaydevvadachhak/home" target="_blank" class="btn" style="color:#111;">Explore More Here</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Contact Layout in HTML -->
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <p>Feel free to contact me anytimes</p>
+            <h2>Get in Touch</h2>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <p>Always available for freelance work if the right project<br> comes along, Feel free to contact me!</p>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>Nila M Ackley,<br>4916 Lauren Drive<br>Brooklyn, Wisconsin,<br>WI, 53521</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone no :</h3>
+                            <p><a href="tel:+917698336190" style="text-decoration: none;">+917698336190</a></p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email Address</h3>
+                            <p><a href="mailto:Jaydevvadachhak@gmail.com" style="text-decoration:none;">JaydevVadachhak</a></p>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Social Connect</h3>
+                    <div class="boxSocial">
+                        <div class="icon">
+                            <a href="https://www.linkedin.com/in/jaydev-vadachhak-66220617a/" target="_blank">
+                                <i class="fa fa-linkedin-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.facebook.com/jaydev.vadachhak/" target="_blank">
+                                <i class="fa fa-facebook-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://twitter.com/Jaydevvadachhak" target="_blank">
+                                <i class="fa fa-twitter-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.instagram.com/jaydevvadachhak/" target="_blank">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form id="contactForm">
+                    <h3>Message Me</h3>
+                    <input type="text" placeholder="Full Name" name="name" id="name">
+                    <input type="email" placeholder="Email" name="email" id="email">
+                    <textarea name="" rows="6" placeholder="Your Message" id="message"></textarea>
+                    <input type="submit" value="Send Message" name="">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Footer Layout in HTML -->
+    <footer class="copyright">
+        <p>&copy; 2021, @Jaydevvadachhak.com, Allrights reserved</p>
+    </footer>
+
+
+    <!-- Firebase -->
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase.js"></script>
+
+    <!-- NOTE: JavaScript Files -->
+    <script src="ext.js" language="javascript"></script>
+    <script src="form.js" language="javascript"></script>
+</body>
+</html>
